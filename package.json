@@ -1,6 +1,6 @@
 {
-  "name": "compliance-mcp-leviai",
-  "version": "1.0.0",
+  "name": "@leviai/compliance-mcp",
+  "version": "1.0.1",
   "description": "AI Compliance Calendar MCP server — track AI regulations, deadlines, risk assessments, and policy updates across jurisdictions (EU, US, UK, Canada). Includes EU AI Act, CCPA/CPRA, NIST Framework, UK AI Act, Canada AIDA.",
   "main": "build/index.js",
   "bin": {
