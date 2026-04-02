@@ -1,0 +1,153 @@
+[
+  {
+    "id": "eu-ai-act",
+    "name": "EU AI Act",
+    "jurisdiction": "EU",
+    "category": ["safety", "transparency", "governance"],
+    "status": "enacted",
+    "enactmentDate": "2024-08-01",
+    "applicabilityDate": "2025-08-02",
+    "fullComplianceDate": "2026-08-02",
+    "description": "Comprehensive regulation on AI systems in the European Union, establishing risk-based approach with prohibitions, high-risk requirements, and transparency obligations.",
+    "riskLevels": ["prohibited", "high-risk", "limited-risk", "minimal-risk"],
+    "keyRequirements": [
+      "Risk management system for high-risk AI",
+      "Data governance and quality",
+      "Technical documentation and record keeping",
+      "Transparency and information to users",
+      "Human oversight requirements",
+      "Accuracy, robustness, and cybersecurity",
+      "Conformity assessments",
+      "CE marking for high-risk systems"
+    ],
+    "penalties": "Up to €35M or 7% of global turnover"
+  },
+  {
+    "id": "ccpa",
+    "name": "California Consumer Privacy Act",
+    "jurisdiction": "US-CA",
+    "category": ["privacy", "data-protection"],
+    "status": "active",
+    "enactmentDate": "2020-01-01",
+    "description": "California law granting consumers rights over their personal information, including right to know, delete, opt-out of sale.",
+    "scope": ["businesses", "service-providers", "third-parties"],
+    "keyRequirements": [
+      "Privacy notices and disclosures",
+      "Consumer rights fulfillment",
+      "Data mapping and inventory",
+      "Opt-out mechanisms",
+      "Employee training",
+      "Vendor management"
+    ],
+    "penalties": "Up to $7,500 per violation"
+  },
+  {
+    "id": "cpra",
+    "name": "California Privacy Rights Act",
+    "jurisdiction": "US-CA",
+    "category": ["privacy", "data-protection"],
+    "status": "active",
+    "enactmentDate": "2023-01-01",
+    "description": "Amendment to CCPA with enhanced consumer rights, sensitive personal information protections, and data minimization requirements.",
+    "keyRequirements": [
+      "Sensitive personal information protections",
+      "Data minimization and purpose limitation",
+      "Risk assessments for high-risk processing",
+      "Enhanced consumer rights (correction, portability)",
+      "Contractor requirements",
+      "Cybersecurity safeguards"
+    ],
+    "penalties": "Up to $7,500 per violation"
+  },
+  {
+    "id": "nist-ai-framework",
+    "name": "NIST AI Risk Management Framework",
+    "jurisdiction": "US",
+    "category": ["safety", "governance", "risk-management"],
+    "status": "guidance",
+    "enactmentDate": "2023-01-26",
+    "description": "Voluntary framework for managing AI risks across the AI lifecycle, providing guidance for organizations developing and using AI systems.",
+    "framework": {
+      "govern": "Organizational AI governance and risk management policies",
+      "map": "AI system context and impact assessment",
+      "measure": "AI system performance and impact measurement",
+      "manage": "Regular monitoring and response to AI risks"
+    },
+    "keyRequirements": [
+      "AI governance structure",
+      "Risk identification and assessment",
+      "Impact measurement and monitoring",
+      "Stakeholder engagement",
+      "Documentation and reporting",
+      "Continuous improvement processes"
+    ]
+  },
+  {
+    "id": "uk-ai-act",
+    "name": "UK AI Act (Draft)",
+    "jurisdiction": "UK",
+    "category": ["safety", "transparency"],
+    "status": "draft",
+    "expectedEnactment": "2024-12-31",
+    "description": "Proposed UK legislation for AI governance focusing on innovation while ensuring safety and public trust in AI systems.",
+    "keyRequirements": [
+      "AI system registration for high-risk applications",
+      "Impact assessments",
+      "Transparency requirements",
+      "Human oversight",
+      "Algorithmic auditing",
+      "Incident reporting"
+    ]
+  },
+  {
+    "id": "canada-aida",
+    "name": "Artificial Intelligence and Data Act",
+    "jurisdiction": "CA",
+    "category": ["safety", "governance"],
+    "status": "bill",
+    "billNumber": "C-27",
+    "description": "Canadian federal legislation (part of Bill C-27) regulating AI systems and protecting against harm from AI.",
+    "keyRequirements": [
+      "Risk assessment and mitigation",
+      "Impact assessments for high-impact systems",
+      "Incident reporting",
+      "Record keeping",
+      "Transparency measures",
+      "Prohibited AI practices"
+    ]
+  },
+  {
+    "id": "china-algorithm-provisions",
+    "name": "Algorithmic Recommendation Management Provisions",
+    "jurisdiction": "CN",
+    "category": ["transparency", "algorithmic-accountability"],
+    "status": "active",
+    "enactmentDate": "2022-03-01",
+    "description": "Chinese regulations on algorithmic recommendation services requiring transparency and user control.",
+    "keyRequirements": [
+      "Algorithm transparency",
+      "User notification and control",
+      "Data protection measures",
+      "Content moderation",
+      "Registration requirements",
+      "Regular assessments"
+    ]
+  },
+  {
+    "id": "singapore-model-ai-governance",
+    "name": "Model AI Governance Framework",
+    "jurisdiction": "SG",
+    "category": ["governance", "voluntary"],
+    "status": "guidance",
+    "enactmentDate": "2020-01-01",
+    "description": "Singapore's voluntary framework providing guidance on AI governance and deployment.",
+    "keyRequirements": [
+      "AI governance structure",
+      "Risk management",
+      "Stakeholder engagement",
+      "Performance monitoring",
+      "Human oversight",
+      "Data governance"
+    ]
+  }
+]

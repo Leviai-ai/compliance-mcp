@@ -1,0 +1,115 @@
+[
+  {
+    "id": "eu-ai-act-high-risk-compliance",
+    "regulation": "eu-ai-act",
+    "title": "EU AI Act: High-Risk AI Systems Full Compliance",
+    "date": "2026-08-02",
+    "type": "compliance-deadline",
+    "description": "All high-risk AI systems must be fully compliant with EU AI Act requirements including risk management, data governance, technical documentation, and conformity assessment.",
+    "priority": "critical",
+    "affectedSectors": ["healthcare", "transportation", "employment", "education", "law-enforcement", "finance"],
+    "requirements": [
+      "Complete conformity assessment",
+      "CE marking affixed",
+      "Risk management system implemented",
+      "Technical documentation finalized",
+      "EU authorized representative appointed (if outside EU)"
+    ]
+  },
+  {
+    "id": "eu-ai-act-foundation-models",
+    "regulation": "eu-ai-act",
+    "title": "EU AI Act: Foundation Models (GPAI) Compliance",
+    "date": "2025-08-02",
+    "type": "compliance-deadline",
+    "description": "General-purpose AI models with systemic risk (>10^25 FLOPs) must comply with additional obligations.",
+    "priority": "high",
+    "affectedSectors": ["tech-platforms", "ai-developers"],
+    "requirements": [
+      "Model evaluation and testing",
+      "Systemic risk assessment",
+      "Incident reporting system",
+      "Cybersecurity measures",
+      "Model documentation"
+    ]
+  },
+  {
+    "id": "eu-ai-act-prohibited-practices",
+    "regulation": "eu-ai-act",
+    "title": "EU AI Act: Prohibited AI Practices Ban",
+    "date": "2025-02-02",
+    "type": "prohibition-effective",
+    "description": "AI systems with unacceptable risk are prohibited from EU market.",
+    "priority": "critical",
+    "affectedSectors": ["all"],
+    "prohibitedPractices": [
+      "Subliminal techniques beyond consciousness",
+      "Exploiting vulnerabilities (age, disability)",
+      "Social scoring by public authorities",
+      "Real-time biometric identification in public spaces (with exceptions)"
+    ]
+  },
+  {
+    "id": "ccpa-cpra-annual-audit",
+    "regulation": "cpra",
+    "title": "CPRA: Annual Risk Assessment Due",
+    "date": "2025-03-31",
+    "type": "annual-requirement",
+    "description": "Annual cybersecurity audit and risk assessment for businesses processing high-risk personal information.",
+    "priority": "medium",
+    "affectedSectors": ["all-businesses"],
+    "requirements": [
+      "Cybersecurity audit completion",
+      "Risk assessment documentation",
+      "Data processing inventory update",
+      "Vendor assessment review"
+    ]
+  },
+  {
+    "id": "uk-ai-act-consultation-response",
+    "regulation": "uk-ai-act",
+    "title": "UK AI Act: Public Consultation Response Deadline",
+    "date": "2024-05-15",
+    "type": "consultation-deadline",
+    "description": "Final opportunity to respond to UK AI Act public consultation.",
+    "priority": "medium",
+    "affectedSectors": ["all-ai-stakeholders"],
+    "status": "passed"
+  },
+  {
+    "id": "nist-ai-framework-update",
+    "regulation": "nist-ai-framework",
+    "title": "NIST AI Framework: Version 2.0 Expected",
+    "date": "2024-12-31",
+    "type": "update-expected",
+    "description": "NIST expected to release updated AI Risk Management Framework incorporating recent developments.",
+    "priority": "low",
+    "affectedSectors": ["ai-developers", "organizations-using-ai"]
+  },
+  {
+    "id": "canada-aida-committee-review",
+    "regulation": "canada-aida",
+    "title": "Canada AIDA: Parliamentary Committee Review",
+    "date": "2024-09-30",
+    "type": "legislative-milestone",
+    "description": "Parliamentary committee expected to complete review of Bill C-27 including AIDA provisions.",
+    "priority": "medium",
+    "affectedSectors": ["canadian-ai-companies"]
+  },
+  {
+    "id": "eu-ai-act-implementing-acts",
+    "regulation": "eu-ai-act",
+    "title": "EU AI Act: Implementing Acts Publication",
+    "date": "2025-02-02",
+    "type": "regulatory-guidance",
+    "description": "European Commission to publish detailed implementing acts and technical standards.",
+    "priority": "high",
+    "affectedSectors": ["all-ai-systems"],
+    "expectedGuidance": [
+      "High-risk AI system classification",
+      "Conformity assessment procedures",
+      "Technical documentation templates",
+      "Risk management standards"
+    ]
+  }
+]

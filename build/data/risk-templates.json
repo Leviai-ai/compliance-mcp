@@ -1,0 +1,250 @@
+[
+  {
+    "useCase": "healthcare-diagnosis",
+    "description": "AI system for medical diagnosis or treatment recommendation",
+    "inherentRisks": {
+      "eu": {
+        "classification": "high-risk",
+        "reasoning": "Medical device under EU AI Act Annex III",
+        "requirements": [
+          "Conformity assessment by notified body",
+          "Clinical validation and testing",
+          "Risk management system (ISO 14971)",
+          "Medical device regulation compliance",
+          "Post-market surveillance"
+        ],
+        "riskLevel": "high"
+      },
+      "us": {
+        "classification": "FDA-regulated",
+        "reasoning": "Medical device subject to FDA oversight",
+        "requirements": [
+          "FDA premarket approval/clearance",
+          "Clinical trials (if required)",
+          "Quality system regulation",
+          "NIST AI Framework adoption recommended"
+        ],
+        "riskLevel": "high"
+      },
+      "uk": {
+        "classification": "high-risk",
+        "reasoning": "Medical device under MHRA regulation",
+        "requirements": [
+          "MHRA approval",
+          "Clinical evidence",
+          "Risk management",
+          "Post-market monitoring"
+        ],
+        "riskLevel": "high"
+      }
+    }
+  },
+  {
+    "useCase": "hiring-screening",
+    "description": "AI system for recruitment and candidate screening",
+    "inherentRisks": {
+      "eu": {
+        "classification": "high-risk",
+        "reasoning": "Employment and worker management under EU AI Act",
+        "requirements": [
+          "Bias testing and mitigation",
+          "Human oversight in decision-making",
+          "Transparency to candidates",
+          "Data protection compliance (GDPR)",
+          "Regular algorithmic audits"
+        ],
+        "riskLevel": "high"
+      },
+      "us": {
+        "classification": "regulated",
+        "reasoning": "EEOC anti-discrimination laws apply",
+        "requirements": [
+          "Adverse impact analysis",
+          "EEOC compliance",
+          "State-specific AI audit laws (NYC Local Law 144)",
+          "Bias testing requirements"
+        ],
+        "riskLevel": "medium-high"
+      },
+      "uk": {
+        "classification": "regulated",
+        "reasoning": "Equality Act 2010 anti-discrimination",
+        "requirements": [
+          "Equality impact assessment",
+          "Reasonable adjustments",
+          "Transparency requirements",
+          "Data protection (UK GDPR)"
+        ],
+        "riskLevel": "medium"
+      }
+    }
+  },
+  {
+    "useCase": "content-moderation",
+    "description": "AI system for social media content moderation",
+    "inherentRisks": {
+      "eu": {
+        "classification": "regulated",
+        "reasoning": "Digital Services Act and AI Act limited risk",
+        "requirements": [
+          "DSA content moderation obligations",
+          "Transparency reporting",
+          "User appeal mechanisms",
+          "Algorithmic amplification disclosure",
+          "Risk assessment for systemic risks"
+        ],
+        "riskLevel": "medium"
+      },
+      "us": {
+        "classification": "minimal-regulation",
+        "reasoning": "Section 230 protections, state laws emerging",
+        "requirements": [
+          "Terms of service compliance",
+          "State-specific requirements (CA, TX)",
+          "Voluntary industry standards",
+          "Transparency reporting (some jurisdictions)"
+        ],
+        "riskLevel": "low-medium"
+      },
+      "uk": {
+        "classification": "regulated",
+        "reasoning": "Online Safety Act requirements",
+        "requirements": [
+          "Duty of care obligations",
+          "Risk assessments",
+          "Transparency reports",
+          "User safety measures",
+          "Content moderation standards"
+        ],
+        "riskLevel": "medium"
+      }
+    }
+  },
+  {
+    "useCase": "financial-credit-scoring",
+    "description": "AI system for credit scoring and lending decisions",
+    "inherentRisks": {
+      "eu": {
+        "classification": "high-risk",
+        "reasoning": "Credit scoring under EU AI Act Annex III",
+        "requirements": [
+          "Conformity assessment",
+          "Bias testing and mitigation",
+          "Explainability to consumers",
+          "Human oversight requirements",
+          "Regular model validation",
+          "Consumer credit directive compliance"
+        ],
+        "riskLevel": "high"
+      },
+      "us": {
+        "classification": "highly-regulated",
+        "reasoning": "Fair Credit Reporting Act, Equal Credit Opportunity Act",
+        "requirements": [
+          "FCRA adverse action notices",
+          "ECOA anti-discrimination compliance",
+          "Model risk management (OCC, Fed guidance)",
+          "State fair lending laws",
+          "Explainability requirements"
+        ],
+        "riskLevel": "high"
+      },
+      "uk": {
+        "classification": "regulated",
+        "reasoning": "FCA consumer credit regulation",
+        "requirements": [
+          "Consumer credit authorization",
+          "Treating customers fairly",
+          "Responsible lending practices",
+          "Data protection compliance",
+          "Algorithmic fairness"
+        ],
+        "riskLevel": "medium-high"
+      }
+    }
+  },
+  {
+    "useCase": "autonomous-vehicle",
+    "description": "AI system for autonomous driving",
+    "inherentRisks": {
+      "eu": {
+        "classification": "high-risk",
+        "reasoning": "Safety component in road vehicles",
+        "requirements": [
+          "Type approval certification",
+          "Functional safety (ISO 26262)",
+          "Cybersecurity (ISO 21434)",
+          "SOTIF (Safety of Intended Functionality)",
+          "Post-market monitoring",
+          "Insurance and liability frameworks"
+        ],
+        "riskLevel": "critical"
+      },
+      "us": {
+        "classification": "regulated",
+        "reasoning": "NHTSA oversight and state regulations",
+        "requirements": [
+          "NHTSA safety standards",
+          "State testing permits",
+          "Insurance requirements",
+          "Crash reporting",
+          "Cybersecurity standards",
+          "Driver monitoring systems"
+        ],
+        "riskLevel": "critical"
+      },
+      "uk": {
+        "classification": "regulated",
+        "reasoning": "DfT and DVSA oversight",
+        "requirements": [
+          "Type approval",
+          "Construction and use regulations",
+          "Insurance framework",
+          "Safety assurance",
+          "Cybersecurity requirements"
+        ],
+        "riskLevel": "critical"
+      }
+    }
+  },
+  {
+    "useCase": "chatbot-customer-service",
+    "description": "AI chatbot for customer service and support",
+    "inherentRisks": {
+      "eu": {
+        "classification": "limited-risk",
+        "reasoning": "Transparency obligations under AI Act",
+        "requirements": [
+          "Disclosure of AI interaction",
+          "Data protection compliance (GDPR)",
+          "Consumer protection laws",
+          "Accessibility requirements",
+          "Quality and safety standards"
+        ],
+        "riskLevel": "low"
+      },
+      "us": {
+        "classification": "minimal-regulation",
+        "reasoning": "General consumer protection and privacy laws",
+        "requirements": [
+          "Truth in advertising",
+          "State privacy law compliance",
+          "Accessibility (ADA)",
+          "Sector-specific regulations (finance, healthcare)"
+        ],
+        "riskLevel": "low"
+      },
+      "uk": {
+        "classification": "minimal-regulation",
+        "reasoning": "Consumer protection and data protection",
+        "requirements": [
+          "Consumer protection from unfair trading",
+          "UK GDPR compliance",
+          "Accessibility regulations",
+          "Sector-specific requirements"
+        ],
+        "riskLevel": "low"
+      }
+    }
+  }
+]

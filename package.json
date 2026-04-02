@@ -1,0 +1,69 @@
+{
+  "name": "@leviai/compliance-mcp",
+  "version": "1.0.0",
+  "description": "AI Compliance Calendar MCP server — track AI regulations, deadlines, risk assessments, and policy updates across jurisdictions (EU, US, UK, Canada). Includes EU AI Act, CCPA/CPRA, NIST Framework, UK AI Act, Canada AIDA.",
+  "main": "build/index.js",
+  "bin": {
+    "compliance-mcp": "build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-compliance",
+    "ai-regulations",
+    "ai-act",
+    "ccpa",
+    "cpra",
+    "gdpr",
+    "nist-ai",
+    "uk-ai-act",
+    "canada-aida",
+    "compliance-calendar",
+    "risk-assessment",
+    "policy-updates",
+    "ai-governance",
+    "ai-safety",
+    "ai-transparency",
+    "privacy-regulations",
+    "data-protection",
+    "ai-tools",
+    "claude",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviai/compliance-mcp.git"
+  },
+  "homepage": "https://github.com/leviai/compliance-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/leviai/compliance-mcp/issues"
+  },
+  "author": "Levi Labs",
+  "license": "MIT",
+  "files": [
+    "build/**/*.js",
+    "build/**/*.d.ts",
+    "src/data/**/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
